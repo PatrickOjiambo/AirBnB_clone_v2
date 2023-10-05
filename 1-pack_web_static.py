@@ -6,6 +6,7 @@ import os
 from fabric.api import local
 from datetime import datetime
 
+
 def do_pack():
     """
     Compresses the contents of the web_static folder into a .tgz archive.
